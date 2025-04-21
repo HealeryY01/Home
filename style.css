@@ -1,0 +1,96 @@
+/* Reset & font */
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Banner */
+.banner-header {
+bac
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.banner-header img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+main h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+main h4 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+main ul {
+  color: #07429c;
+  padding-left: 20px;
+}
+
+main li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+/* Responsive images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optional: Add some card styling look */
+.row {
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.row:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  main h2 {
+    font-size: 1.5rem;
+  }
+
+  main h4 {
+    font-size: 1.1rem;
+  }
+
+  main li {
+    font-size: 1rem;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .row img {
+    margin-bottom: 15px;
+  }
+}
