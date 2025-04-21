@@ -1,0 +1,91 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+/* .login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+} */
+
+.form-control {
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+}
+
+/* .qr-code img {
+  width: 100px;
+  height: auto;
+} */
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-wrapper {
+  flex: 2;
+}
+
+.qr-code {
+  flex: 1;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.app-links img {
+  width: 120px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .login-form {
+    margin-top: 20px;
+  }
+
+  .app-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-links div {
+    margin-bottom: 10px;
+  }
+}
