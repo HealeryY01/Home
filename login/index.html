@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vnEdu Đăng nhập</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center bg-light">
+                <div class="text-center">
+                    <img src="./img/image.png" alt="Illustration" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="login-form">
+                    <h2 class="mb-4">Đăng nhập</h2>
+                    <div class="form-container">
+                        <div class="form-wrapper">
+                            <form action="" method="POST">
+                                <div class="form-group position-relative">
+                                    <i class="fa fa-user position-absolute" style="top: 50%; left: 10px; transform: translateY(-50%); color: gray;"></i>
+                                    <input type="text" name="username" class="form-control pl-4" placeholder="Tài khoản" required style="padding-left: 30px;">
+                                </div>
+                                <div class="form-group position-relative">
+                                    <i class="fa fa-lock position-absolute" style="top: 50%; left: 10px; transform: translateY(-50%); color: gray;"></i>
+                                    <input type="password" name="password" class="form-control" placeholder="Mật khẩu" required style="padding-left: 30px;">    
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
+                            </form>
+                        </div>
+                        <div class="qr-code">
+                            <img src="img/image-1.png" alt="QR Code" style="width: 100px;">
+                            <p><a href="#">Hướng dẫn đăng nhập qua QRCode</a></p>
+                        </div>
+                    </div>                                          
+                    <ul class="mt-3">
+                        <li>Thầy/Cô quên mật khẩu xin vui lòng liên hệ Quản trị nhà trường để được cấp lại.</li>
+                        <li>Học sinh/Phụ huynh học sinh quên mật khẩu vui lòng liên hệ GVCN để lấy mật khẩu.</li>
+                    </ul>
+                    <div class="mt-4">
+                        <div class="app-links d-flex justify-content-between">
+                            <div>
+                                <span>vnEdu Teacher</span>
+                                <img src="appstore.png" alt="App Store">
+                                <img src="googleplay.png" alt="Google Play">
+                            </div>
+                            <div>
+                                <span>vnEdu Connect</span>
+                                <img src="appstore.png" alt="App Store">
+                                <img src="googleplay.png" alt="Google Play">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <a href="#">Đăng nhập qua SSO của Tỉnh/TP/Sở</a>
+                        <p><a href="#">Hướng dẫn | Chính sách</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
