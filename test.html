@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng nhập vnEdu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid min-vh-100 d-flex align-items-center">
+        <div class="row w-100">
+            <!-- Left -->
+            <div
+                class="col-md-6 d-flex flex-column align-items-center justify-content-center bg-light text-center px-4">
+                <img src="https://vnedu.vn/images/logo.png" alt="vnEdu Logo" style="max-height: 60px;" class="mb-2">
+                <h2 class="text-primary fw-bold">vnEdu</h2>
+                <p class="text-muted mb-4">Mạng giáo dục Việt Nam</p>
+                <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" alt="Minh họa" class="img-fluid"
+                    style="max-height: 350px;">
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6 d-flex flex-column justify-content-center px-5">
+                <h3 class="fw-bold text-primary mb-4">Đăng nhập</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Tên tài khoản</label>
+                        <input type="text" class="form-control" id="username" placeholder="Tài khoản">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Mật khẩu</label>
+                        <input type="password" class="form-control" id="password" placeholder="Mật khẩu">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Đăng nhập</button>
+                </form>
+
+                <div class="mt-3">
+                    <small class="d-block text-muted">
+                        • Thầy/Cô quên mật khẩu xin vui lòng liên hệ Quản trị nhà trường để được cấp lại.<br>
+                        • Học sinh/Phụ huynh quên mật khẩu xin vui lòng liên hệ GVCN để lấy lại mật khẩu.
+                    </small>
+                </div>
+
+                <div class="d-flex justify-content-start gap-3 mt-4">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/App_Store_(iOS).svg"
+                            style="height: 30px;"></a>
+                    <a href="#"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                            style="height: 30px;"></a>
+                </div>
+
+                <div class="mt-4 text-center">
+                    <a href="#" class="text-decoration-none small">Đăng nhập qua SSO của Tỉnh/TP/Sở</a><br>
+                    <a href="#" class="text-decoration-none small">Hướng dẫn | Chính sách</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

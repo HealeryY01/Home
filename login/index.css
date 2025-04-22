@@ -1,8 +1,10 @@
 body,
 html {
-  height: 100%;
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
   margin: 0;
-  font-family: Arial, sans-serif;
+  padding: 0;
+  height: 100%;
 }
 
 .container-fluid {
@@ -13,19 +15,11 @@ html {
   background-color: #f8f9fa;
 }
 
-/* .login-form {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  border-radius: 8px;
-} */
-
 .form-control {
   height: 45px;
   border-radius: 5px;
   margin-bottom: 15px;
+  padding-left: 30px;
 }
 
 .btn-primary {
@@ -34,11 +28,6 @@ html {
   height: 45px;
   border-radius: 5px;
 }
-
-/* .qr-code img {
-  width: 100px;
-  height: auto;
-} */
 
 .form-container {
   display: flex;
@@ -56,10 +45,27 @@ html {
   margin-left: 20px;
 }
 
-.app-links img {
+.qr-code img {
+  width: 100px;
+  height: auto;
+}
+
+.app-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.app-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.store-buttons img {
   width: 120px;
   height: auto;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .position-relative {
@@ -68,6 +74,10 @@ html {
 
 .position-absolute {
   position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: gray;
 }
 
 @media (max-width: 768px) {
@@ -81,11 +91,15 @@ html {
   }
 
   .app-links {
+    align-items: center;
+  }
+
+  .app-row {
     flex-direction: column;
     align-items: center;
   }
 
-  .app-links div {
-    margin-bottom: 10px;
+  .store-buttons img {
+    margin: 5px 0;
   }
 }
