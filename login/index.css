@@ -59,13 +59,13 @@ html {
 .app-row {
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: space-around;
 }
 
 .store-buttons img {
   width: 120px;
   height: auto;
-  margin-right: 10px;
+  margin-right: 70px;
 }
 
 .position-relative {
@@ -78,6 +78,10 @@ html {
   left: 10px;
   transform: translateY(-50%);
   color: gray;
+}
+a.link-white {
+  color: rgb(145, 153, 157);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
